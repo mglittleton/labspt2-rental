@@ -58,5 +58,5 @@
     "graceful-fs": "^4.2.4"
   },
   "proxy": "http://localhost:3000",
-  "homepage": "https://www.roostr.tech"
+  "homepage": "https://roostr.michaelglittleton.com"
 }
