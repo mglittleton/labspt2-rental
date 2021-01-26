@@ -6,8 +6,7 @@ import {
   Icon,
   Image,
   Dimmer,
-  Loader,
-  Responsive
+  Loader
 } from "semantic-ui-react";
 import { FlexRow, FlexColumn, Container } from "custom-components";
 import { Link } from "react-router-dom";
