@@ -14,11 +14,6 @@ import { Link } from "react-router-dom";
 import { differenceInDays, format } from "date-fns";
 import styled from "styled-components";
 
-const getWidth = () => {
-  const isSSR = typeof window === "undefined";
-  return isSSR ? Responsive.onlyTablet.minWidth : window.innerWidth;
-};
-
 class ReservationView extends Component {
   componentDidMount() {
     this.props.fetchSingleReservation(this.props.match.params.id);

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import { Icon, Image, Header, Checkbox } from "semantic-ui-react";
+import { Image, Header, Checkbox } from "semantic-ui-react";
 import { FlexRow, FlexColumn } from "custom-components";
 
 import EmployeePropertyCard from "./EmployeePropertyCard";

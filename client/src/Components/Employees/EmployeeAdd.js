@@ -75,19 +75,7 @@ class EmployeeAdd extends Component {
 
   render() {
     const { employee, permissions } = this.state;
-    const permissionValues = [
-      {
-        key: "yes",
-        text: "Yes",
-        value: true
-      },
-      {
-        key: "no",
-        text: "No",
-        value: false
-      }
-    ];
-
+    
     return (
       <FlexColumn
         justifyBetween
