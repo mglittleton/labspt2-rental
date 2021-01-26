@@ -36,7 +36,7 @@
     "build": "npm run build-semantic && react-scripts build",
     "theme": "cd src/semantic && gulp build && cd ../../ && npm start",
     "test": "react-scripts test",
-    "preinstall": "npx npm-force-resolutions",
+    "preinstall": "yarn npm-force-resolutions",
     "coverage": "react-scripts test --coverage",
     "eject": "react-scripts eject"
   },
