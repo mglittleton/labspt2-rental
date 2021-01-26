@@ -36,6 +36,7 @@
     "build": "npm run build-semantic && react-scripts build",
     "theme": "cd src/semantic && gulp build && cd ../../ && npm start",
     "test": "react-scripts test",
+    "preinstall": "npx npm-force-resolutions",
     "coverage": "react-scripts test --coverage",
     "eject": "react-scripts eject"
   },
@@ -53,6 +54,9 @@
     "enzyme-adapter-react-16": "^1.10.0",
     "gulp": "^3.9.1",
     "semantic-ui": "^2.4.2"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
   },
   "proxy": "http://localhost:3000",
   "homepage": "https://www.roostr.tech"

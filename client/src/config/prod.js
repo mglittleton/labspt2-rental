@@ -1,3 +1,3 @@
 export const config = {
-  apiUrl: "https://api.roostr.tech"
+  apiUrl: "https://roostrlittleton.herokuapp.com"
 };
