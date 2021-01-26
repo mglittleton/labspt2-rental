@@ -36,7 +36,8 @@
     "theme": "cd src/semantic && gulp build && cd ../../ && npm start",
     "test": "react-scripts test",
     "coverage": "react-scripts test --coverage",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "preinstall": "npx npm-force-resolutions"
   },
   "eslintConfig": {
     "extends": "react-app"
